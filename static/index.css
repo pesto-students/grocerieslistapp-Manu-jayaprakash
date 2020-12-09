@@ -1,0 +1,65 @@
+.groceries {
+    display: none;
+}
+.delete-button,.edit-button {
+    cursor: pointer;
+    vertical-align: sub;
+    float: right;
+}
+body {
+    background-color: #1d2333;
+    color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login {
+    text-align: center;
+}
+.login,.groceries {
+    background: white;
+    padding: 0 20px 20px 20px;
+    width: max-content;
+    min-width: 25%;
+    border-radius: 4px;
+}
+#userName {
+    margin: 8px auto;
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+li {
+    font-size: 20px;
+}
+ol {
+    padding-left: 20px;
+}
+#userDetails {
+    display: inline;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 18px;
+}
+.button-groups {
+    display: inline;
+    float: right;
+}
+.login-label {
+    font-size: 22px;
+    font-weight: 300;
+}
+#bag-capacity {
+    color: red;
+    font-weight: bold;
+}
+.footer-data {
+    float: right;
+}
+@media (max-width: 576px) {
+    .login,.groceries {
+        min-width: 95%;
+    } 
+}
